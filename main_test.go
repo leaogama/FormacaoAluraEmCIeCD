@@ -1,7 +1,5 @@
 package main
 
-
-
 import (
 	"bytes"
 	"encoding/json"
@@ -31,7 +29,6 @@ func CriaAlunoMock() {
 	database.DB.Create(&aluno)
 	ID = int(aluno.ID)
 }
-
 
 func DeletaAlunoMock() {
 	var aluno models.Aluno
